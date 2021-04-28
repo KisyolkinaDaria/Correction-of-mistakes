@@ -1,0 +1,6 @@
+#indef FUNCTIONS_H
+#define FUNCTIONS_H
+
+int Evklid(int a, int b);
+
+#endif;
