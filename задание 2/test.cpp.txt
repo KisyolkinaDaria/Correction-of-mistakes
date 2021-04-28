@@ -1,0 +1,32 @@
+#include "functions.h"
+#include "gtest/gtest.h"
+
+TEST(testGenerate, Single)
+{
+    Evklid(1, 2);
+    EXPECT_EQ(1);
+}
+
+TEST(testGenerate, Single)
+{
+    Evklid(7, 2);
+    EXPECT_EQ(1);
+}
+
+TEST(testGenerate, Single)
+{
+    Evklid(22, 55);
+    EXPECT_EQ(11);
+}
+
+TEST(testGenerate, Single)
+{
+    Evklid(725, 125);
+    EXPECT_EQ(25);
+}
+
+TEST(testGenerate, Single)
+{
+    Evklid(1002, 2002);
+    EXPECT_EQ(3);
+}
